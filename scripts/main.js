@@ -3,7 +3,7 @@ var imag = document.querySelector('img');
 imag.onclick = function() {
     var sorc = imag.getAttribute('src');
     if(sorc == 'images/3.jpg'){
-        imag.setAttribute ('src','images/my_hero_academia.jpg');
+        imag.setAttribute ('src','images/mha.jpg');
     }
     else{
         imag.setAttribute ('src', 'images/3.jpg');
